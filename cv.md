@@ -1,4 +1,4 @@
-![Me](/rsschool-cv/me.jpg)
+![Me](/me.jpg)
 1. *Kirill Demyanenko*
 2. <+375291556313>, <demyanenkokg@gmail.com>, Discord - KirillDemyanenko, https://www.codewars.com/users/KirillDemyanenko
 3. My goal is to learn new things and self-development.
