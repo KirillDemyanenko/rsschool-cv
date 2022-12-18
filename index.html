@@ -9,17 +9,19 @@
 </head>
 <body>
 <header>
-    <nav>
-        <ul>
-            <li><a href='/'>about</a></li>
-            <li>goals</li>
-            <li>skills</li>
-            <li>code-example</li>
-            <li>experience</li>
-            <li>education</li>
-            <li>languages</li>
-        </ul>
-    </nav>
+    <div class='content'>
+        <nav>
+            <ul>
+                <li><a href='/'>about</a></li>
+                <li>goals</li>
+                <li>skills</li>
+                <li>code-example</li>
+                <li>experience</li>
+                <li>education</li>
+                <li>languages</li>
+            </ul>
+        </nav>
+    </div>
 </header>
 <main>
     <div class='content'>
@@ -31,6 +33,7 @@
                 <p><b>Age</b> 34</p>
                 <p><b>Address</b>
                 <address>Belarus, Homyel</address>
+                </p>
                 <p><b>E-mail</b><a href='mailto:demyanenkokg@gmail.com'>demyanenkokg@gmail.com</a></p>
                 <p><b>Phone</b><a href='tel:+375291556313'>+375 (29) 155-63-13</a></p>
                 <p><b>Website</b><a href='/'>MySite</a></p>
@@ -45,26 +48,47 @@
         </section>
         <section class='skills'>
             <h2>skills</h2>
-            <ul>
-                <li>Python</li>
-                <li>SQL</li>
-                <li>1C</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
+            <p>Python</p>
+            <div class='skills-container'>
+                <div class='skills-div python'>60%</div>
+            </div>
+            <p>SQL</p>
+            <div class='skills-container'>
+                <div class='skills-div sql'>30%</div>
+            </div>
+            <p>1C</p>
+            <div class='skills-container'>
+                <div class='skills-div oneC'>60%</div>
+            </div>
+            <p>JavaScript</p>
+            <div class='skills-container'>
+                <div class='skills-div js'>60%</div>
+            </div>
+            <p>TypeScript</p>
+            <div class='skills-container'>
+                <div class='skills-div ts'>40%</div>
+            </div>
+            <p>HTML</p>
+            <div class='skills-container'>
+                <div class='skills-div html'>60%</div>
+            </div>
+            <p>CSS</p>
+            <div class='skills-container'>
+                <div class='skills-div css'>60%</div>
+            </div>
         </section>
         <section class='code-example'>
             <h2>code example</h2>
-            <code>
+            <pre>
+                <code>
                 def count_bits(n):
-                b = ''
-                while n > 0:
-                b = str(n % 2) + b
-                n = n // 2
-                return b.count('1')
+                    b = ''
+                    while n > 0:
+                        b = str(n % 2) + b
+                        n = n // 2
+                    return b.count('1')
             </code>
+            </pre>
         </section>
         <section class='experience'>
             <h2>experience</h2>
