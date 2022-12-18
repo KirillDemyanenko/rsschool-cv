@@ -15,11 +15,30 @@ header {
 
 footer {
     background-color: #96F03C;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    text-align: center;
+    align-self: center;
 }
-
+footer > a {
+    display: flex;
+    height: 50px;
+    text-decoration: none;
+    color: #1c1c1c;
+}
 .content {
     margin: 0 auto;
     max-width: 1140px;
+}
+
+footer > a > p {
+    margin: auto 0;
+}
+
+footer > a > p:hover {
+    color: white;
 }
 
 section {
@@ -28,7 +47,7 @@ section {
 
 .about__img {
     display: flex;
-    width: 25%;
+    max-width: 30%;
     margin: 15px;
     border-radius: 10px;
 }
@@ -44,7 +63,7 @@ h2 {
 .about {
     display: flex;
     flex-wrap: nowrap;
-    width: 100%;
+    width: 80%;
 }
 
 pre {
@@ -109,17 +128,61 @@ code {
     background-color: #8f79c7;
 }
 
-.education, .languages, .goals, .code-example, .experience{
+.education, .languages, .goals, .code-example, .experience, .about{
     width: 80%;
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
 
-ul {
+.content > nav > ul {
+    display: flex;
+}
+nav > ul > li {
+    display: flex;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #A33E21;
+}
+
+nav > ul > li > a:hover {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #c00dd5;
+}
+
+section > ul {
     list-style: none;
 }
 
-ul > li::before {
+section > ul > li::before {
     content: '✔';
     margin-right: 10px;
 }
+
+h1 {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+.about__info > p {
+    margin-top: 8px;
+    margin-right: 10px;
+    display: flex;
+    width: 50%;
+    font-size: 24px;
+}
+.about__info > p > address {
+    width: 30%;
+
+}
+
