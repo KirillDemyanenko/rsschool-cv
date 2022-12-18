@@ -38,6 +38,7 @@ h2 {
     font-size: 2em;
     text-transform: uppercase;
     text-align: center;
+    margin: 10px auto;
 }
 
 .about {
@@ -108,3 +109,17 @@ code {
     background-color: #8f79c7;
 }
 
+.education, .languages, .goals, .code-example, .experience{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+ul {
+    list-style: none;
+}
+
+ul > li::before {
+    content: '✔';
+    margin-right: 10px;
+}
