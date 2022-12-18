@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #96F03C;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+section {
+    padding: 15px;
+}
+.about__img {
+    display: flex;
+    width: 25%;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #F05324;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
