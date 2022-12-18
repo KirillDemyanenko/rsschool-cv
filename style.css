@@ -142,7 +142,10 @@ code {
     width: 80%;
     margin: 0 auto;
 }
-
+.experience > a {
+    text-decoration: none;
+    color: #A33E21;
+}
 nav {
     display: flex;
     justify-content: space-evenly;
