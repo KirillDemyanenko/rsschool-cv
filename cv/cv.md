@@ -12,6 +12,6 @@ The first education in the field of IT. Now I am getting a second higher educati
             n = n // 2
         return b.count('1')
     ```
-6. Only writing various programs for current work. Also own configuration 1C for current work. https://github.com/KirillDemyanenko/rsschool-cv/
+6. Only writing various programs for current work. Also own configuration 1C for current work. [https://github.com/KirillDemyanenko/rsschool-cv/](https://kirilldemyanenko.github.io/rsschool-cv/)
 7. https://stepik.org/users/491116414 - Stepik, Higher education in the specialty "Computers, complexes, systems and networks" (Moscow State University of Instrument Engineering and Computer Science, Sergiev-Posad)
 8. English level - beginner
