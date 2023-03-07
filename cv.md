@@ -16,6 +16,10 @@
 
 ***
 
+### About
+
+I like to study and learn something new.
+
 ***
 
 ### Code example
