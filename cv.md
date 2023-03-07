@@ -50,3 +50,24 @@ function findMissing(arr1, arr2) {
 }
 ```
 
+***
+
+### Education
+
+- [x] RS-School courses
+- [x] Moscow State University of Instrument Engineering and Informatics (software engineer)
+- [x] Russian-Belarusian University (civil engineer)
+- [x] Stepik
+
+***
+
+### Experience
+
+Writing automation programs for current work, training programs during the RS-School course
+
+***
+
+### Languages
+
+- [x] Russian (native)
+- [x] English (beginner)
