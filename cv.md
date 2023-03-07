@@ -22,6 +22,18 @@ I like to study and learn something new.
 
 ***
 
+### Skills
+
+- [x] JavaScript
+- [x] TypeScript
+- [x] HTML
+- [x] CSS
+- [x] git
+- [x] SQL
+- [x] Python
+
+***
+
 ### Code example
 
 ```
