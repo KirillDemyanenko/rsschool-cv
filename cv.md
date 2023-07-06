@@ -2,7 +2,7 @@
 
 ***
 
-![Me](me.jpg)
+![Me](src/assets/me.jpg)
 
 ***
 
