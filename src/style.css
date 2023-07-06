@@ -1,5 +1,28 @@
+:root {
+    --color-bg: #313b47;
+    --color-block-first: #ebebeb;
+    --color-block-second: #313c4e;
+    --color-font: black;
+    --color-main: white;
+    --color-border-first: #989da6;
+    --color-border-second: #449399;
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    background-color: var(--color-bg);
+}
+
+body {
+    display: flex;
+    margin: 50px auto;
+    width: 90%;
+    height: 100vh;
+    background-color: var(--color-main);
 }
