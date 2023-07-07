@@ -27,6 +27,7 @@ body {
     background-color: var(--color-main);
     gap: 10px;
     padding: 10px;
+    flex-direction: column;
 }
 
 header {
@@ -115,4 +116,47 @@ header .contacts {
     width: calc(30% - 10px);
     padding: 30px 20px;
     border-radius: 0 5px 0 5px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    height: calc(100%);
+}
+
+.right-column {
+    display: flex;
+    background-color: var(--color-block-first);
+    width: calc(30% - 10px);
+    padding: 10px 20px;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.left-column {
+    display: flex;
+    width: calc(70%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+footer {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding: 5px 5%;
+    background-color: var(--color-main);
+}
+
+footer a {
+    text-decoration: none;
+    display: flex;
+    height: 100%;
 }
