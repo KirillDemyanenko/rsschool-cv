@@ -23,7 +23,6 @@ body {
     display: flex;
     margin: 50px auto;
     width: 90%;
-    height: 100vh;
     background-color: var(--color-main);
     gap: 10px;
     padding: 10px;
@@ -116,6 +115,14 @@ header .contacts {
     width: calc(30% - 10px);
     padding: 30px 20px;
     border-radius: 0 5px 0 5px;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 0.9rem;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: var(--color-border-first);
 }
 
 main {
@@ -132,6 +139,7 @@ main {
     padding: 10px 20px;
     border-radius: 5px;
     gap: 10px;
+    flex-direction: column;
 }
 
 .left-column {
@@ -140,6 +148,59 @@ main {
     padding: 10px 20px;
     border-radius: 5px;
     gap: 10px;
+    flex-direction: column;
+}
+
+.right-column__block {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.info .skill-card {
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--color-main);
+    background-color: var(--color-border-second);
+}
+
+.right-column__block h3 {
+    display: flex;
+    width: 100%;
+    text-transform: uppercase;
+    color: var(--color-bg);
+    margin: 5px 0;
+}
+
+.university {
+    display: flex;
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.qualification {
+    display: flex;
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 200;
+    color: var(--color-border-second);
+    font-style: italic;
+}
+
+.study-place {
+    display: flex;
+    width: 100%;
+    font-size: 0.6rem;
+    font-weight: 200;
+    font-style: italic;
 }
 
 footer {
