@@ -27,6 +27,7 @@ body {
     gap: 10px;
     padding: 10px;
     flex-direction: column;
+    border-radius: 10px;
 }
 
 header {
@@ -69,15 +70,21 @@ header .info .photo-border-out .photo-border-in {
     aspect-ratio: 1/1;
     border-radius: 50%;
     overflow: hidden;
+    position: relative;
 }
-
 
 header .info .photo-border-out:hover {
     border: 0;
 }
 
-header .info .photo-border-out .photo-border-in img {
-    margin-left: 10px;
+#photo {
+    position: absolute;
+    width: 106px;
+    height: 115px;
+    border: none;
+    aspect-ratio: auto;
+    top: -11px;
+    left: -8px;
 }
 
 .text {
@@ -103,7 +110,7 @@ h2 {
     color: var(--color-border-second);
 }
 
-h4 {
+.text > h3 {
     font-size: 0.6rem;
     font-weight: 200;
 }
@@ -152,7 +159,7 @@ main {
     flex-direction: column;
 }
 
-.right-column__block {
+.right-column__block, .left-column__block {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -173,12 +180,40 @@ main {
     background-color: var(--color-border-second);
 }
 
-.right-column__block h3 {
+.right-column__block h3, .left-column__block h3 {
     display: flex;
     width: 100%;
     text-transform: uppercase;
     color: var(--color-bg);
     margin: 5px 0;
+}
+
+.left-column__block h3 {
+    color: var(--color-font);
+}
+
+.info img {
+    padding: 3px;
+    border: 1px solid black;
+    margin: 5px;
+    width: 150px;
+    border-radius: 3px;
+}
+
+.info img:hover {
+    transform: scale(110%);
+}
+
+.info p {
+    font-size: 0.9rem;
+    color: var(--color-block-second);
+    font-style: oblique;
+}
+
+.info p a {
+    font-size: 0.8rem;
+    color: var(--color-bg);
+    font-style: oblique;
 }
 
 .university {
