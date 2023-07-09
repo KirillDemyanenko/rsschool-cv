@@ -22,6 +22,7 @@ html {
 body {
     display: flex;
     margin: 50px auto;
+    max-width: 1240px;
     width: 90%;
     background-color: var(--color-main);
     gap: 10px;
@@ -257,4 +258,12 @@ footer a {
     text-decoration: none;
     display: flex;
     height: 100%;
+}
+
+pre {
+    background-color: #eee;
+    border: 1px solid #999;
+    padding: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
 }
