@@ -210,7 +210,6 @@ main {
 .info {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 10px;
     gap: 2px;
 }
 
