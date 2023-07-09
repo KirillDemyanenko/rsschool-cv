@@ -301,6 +301,7 @@ footer {
     margin: 0 auto;
     padding: 5px 5%;
     align-items: center;
+    gap: 30px;
     background-color: var(--color-main);
 }
 
@@ -308,7 +309,6 @@ footer a {
     text-decoration: none;
     display: flex;
     height: 100%;
-    margin-left: 30px;
 }
 
 footer > p {
