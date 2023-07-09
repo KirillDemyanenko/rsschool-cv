@@ -58,6 +58,7 @@ header nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--color-font);
+    font-weight: 700;
 }
 
 header nav ul li a:hover {
@@ -209,7 +210,16 @@ main {
 .info {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 10px;
     gap: 2px;
+}
+
+.info ol {
+    display: flex;
+    width: 100%;
+    margin-left: 30px;
+    flex-direction: column;
+    list-style-type: none;
 }
 
 .info .skill-card {
@@ -251,7 +261,7 @@ main {
     font-style: oblique;
 }
 
-.info p a {
+.info p a, .info ol a {
     font-size: 0.8rem;
     color: var(--color-bg);
     font-style: oblique;
