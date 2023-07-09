@@ -157,9 +157,21 @@ header .contacts {
     font-size: 0.7rem;
 }
 
-.contacts a {
+.contacts ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contacts ul li a {
     text-decoration: none;
     color: var(--color-border-first);
+}
+
+.contacts ul li a:hover {
+    text-decoration: underline;
+    color: var(--color-main);
 }
 
 main {
