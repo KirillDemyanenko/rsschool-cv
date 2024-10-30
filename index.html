@@ -85,7 +85,7 @@
                     <pre>
   getVideosId(): string {
     const videosId: string[] = [];
-    this.realResponse$.value.items.forEach((value) =>
+    this.realResponse$.value.items.forEach((value) =&gt;
       videosId.push((value.id as { kind: string; videoId: string }).videoId),
     );
     return videosId.join(',');
